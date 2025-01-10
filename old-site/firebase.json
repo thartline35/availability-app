@@ -1,0 +1,11 @@
+{
+    "hosting": {
+      "site": "availability-app-by-tammyhartline",
+      "public": ".",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  }

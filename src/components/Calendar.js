@@ -223,7 +223,8 @@ const Calendar = ({ user }) => {
     window.addEventListener("mouseup", handleMouseUp);
     return () => window.removeEventListener("mouseup", handleMouseUp);
   }, []);
-  // Add this useEffect to track availability changes
+
+  // Added this useEffect to track availability changes
   useEffect(() => {
     console.log("Availability state changed:", availability);
   }, [availability]);
@@ -250,7 +251,7 @@ const Calendar = ({ user }) => {
             : "Schedule Management"}
         </h3>
         <p>
-          Select the times you're typically available for meetings. You can:
+          Select the times you're available for each day of the week. You can:
           <ul style={{ marginTop: "8px", marginBottom: "8px" }}>
             <li>Click to toggle individual time slots</li>
             <li>Update your schedule anytime if your availability changes</li>
