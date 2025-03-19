@@ -80,7 +80,7 @@ const Login = ({ onLogin }) => {
             <EmailIcon fontSize="small" />
             <Typography variant="body2">
               For bugs and issues, contact the developer {' '}
-              <Link href="mailto:tammy.hartline@contractors.scale.com" underline="hover">
+              <Link href="mailto:tammyhartline@gmail.com" underline="hover">
               Tammy Hartline
               </Link>
             </Typography>
