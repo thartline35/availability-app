@@ -31,7 +31,7 @@ const Login = ({ onLogin }) => {
     } finally {
       setLoading(false);
     }
-  };
+  }; 
 
   return (
     <Container maxWidth="sm">
